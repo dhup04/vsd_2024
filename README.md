@@ -1458,7 +1458,7 @@ Now we will do synthesis again then floorplan , placement and cts in the openlan
    tap_decap_or
    run_placement
 
-   # Incase getting error will use this command
+   If we get error, we use the below commands: 
    unset ::env(LIB_CTS)
 
    run_cts
